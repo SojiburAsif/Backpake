@@ -4,8 +4,9 @@ This repository contains solutions to 10 basic problem-solving tasks using TypeS
 
 ---
 
-# 1. Reverse a String
+#
 ```ts
+ 1. Reverse a String
 const reverseString = (s: string): string => {
     let result = "";
     for (let i = s.length - 1; i >= 0; i--) {
